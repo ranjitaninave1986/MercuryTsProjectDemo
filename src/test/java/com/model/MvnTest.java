@@ -116,7 +116,7 @@ public class MvnTest
   @BeforeSuite
   public void openBrowser() 
   {
-	  System.out.println("Enter code in Github AAAAAA");
+	  System.out.println("Enter code in Github AAAAAA LLLLLLLL");
 	  System.out.println("In openBrowser method under BeforeSuite");
 	  System.setProperty("webdriver.chrome.driver", "E:\\Seleniumdownload\\chromedriver_win32\\chromedriver.exe");
 	  driver=new ChromeDriver();
@@ -127,7 +127,9 @@ public class MvnTest
   public void closeBrowser() 
   {
 	  driver.close();
-	  System.out.println("Ranjita");
+	  System.out.println("Ranjita1155555");
+	  System.out.println("ggdhsfhgsdfsfd");
+	  System.out.println("sdfdsg");
   }
 
 }
