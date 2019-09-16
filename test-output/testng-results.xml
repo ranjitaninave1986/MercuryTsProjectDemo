@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15113" started-at="2019-08-24T09:33:53Z" finished-at="2019-08-24T09:34:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15113" started-at="2019-08-24T09:33:53Z" finished-at="2019-08-24T09:34:08Z">
+      <class name="com.model.MvnTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.model.MvnTest@4501b7af]" name="openBrowser" is-config="true" duration-ms="3071" started-at="2019-08-24T09:33:50Z" finished-at="2019-08-24T09:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterApplicationURL()[pri:0, instance:com.model.MvnTest@4501b7af]" name="enterApplicationURL" is-config="true" duration-ms="2925" started-at="2019-08-24T09:33:53Z" finished-at="2019-08-24T09:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationURL -->
+        <test-method status="PASS" signature="maximizeBrowser()[pri:0, instance:com.model.MvnTest@4501b7af]" name="maximizeBrowser" is-config="true" duration-ms="1176" started-at="2019-08-24T09:33:56Z" finished-at="2019-08-24T09:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeBrowser -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MvnTest@4501b7af]" name="getAllCookies" is-config="true" duration-ms="19" started-at="2019-08-24T09:33:57Z" finished-at="2019-08-24T09:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithValidds1()[pri:1, instance:com.model.MvnTest@4501b7af]" name="loginwithValidds1" duration-ms="4386" started-at="2019-08-24T09:33:57Z" description="Verify that valid user1 able to login into Mercury tours application by using valid username and password" finished-at="2019-08-24T09:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidds1 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MvnTest@4501b7af]" name="captureScreenshot" is-config="true" duration-ms="423" started-at="2019-08-24T09:34:02Z" finished-at="2019-08-24T09:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MvnTest@4501b7af]" name="getAllCookies" is-config="true" duration-ms="15" started-at="2019-08-24T09:34:02Z" finished-at="2019-08-24T09:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithValidds2()[pri:2, instance:com.model.MvnTest@4501b7af]" name="loginwithValidds2" duration-ms="3532" started-at="2019-08-24T09:34:02Z" description="Verify that valid user2 able to login into Mercury tours application by using valid username and password" finished-at="2019-08-24T09:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValidds2 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MvnTest@4501b7af]" name="captureScreenshot" is-config="true" duration-ms="305" started-at="2019-08-24T09:34:06Z" finished-at="2019-08-24T09:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:com.model.MvnTest@4501b7af]" name="getAllCookies" is-config="true" duration-ms="13" started-at="2019-08-24T09:34:06Z" finished-at="2019-08-24T09:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithInValidds()[pri:3, instance:com.model.MvnTest@4501b7af]" name="loginwithInValidds" duration-ms="1916" started-at="2019-08-24T09:34:06Z" description="Verify that invalid user not able to login into Mercury tours application by using invalid username and password" finished-at="2019-08-24T09:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInValidds -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:com.model.MvnTest@4501b7af]" name="captureScreenshot" is-config="true" duration-ms="361" started-at="2019-08-24T09:34:08Z" finished-at="2019-08-24T09:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.model.MvnTest@4501b7af]" name="deleteAllCookies" is-config="true" duration-ms="8" started-at="2019-08-24T09:34:08Z" finished-at="2019-08-24T09:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="dbConnectionClosed()[pri:0, instance:com.model.MvnTest@4501b7af]" name="dbConnectionClosed" is-config="true" duration-ms="1" started-at="2019-08-24T09:34:08Z" finished-at="2019-08-24T09:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnectionClosed -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.model.MvnTest@4501b7af]" name="closeBrowser" is-config="true" duration-ms="124" started-at="2019-08-24T09:34:08Z" finished-at="2019-08-24T09:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.model.MvnTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
