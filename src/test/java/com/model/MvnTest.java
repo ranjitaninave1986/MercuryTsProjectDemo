@@ -111,6 +111,7 @@ public class MvnTest
   public void dbConnectionClosed() 
   {
 	  System.out.println("dbConnectionClosed method under AfterTest");
+	   System.out.println("2nd way to update");
   }
 
   @BeforeSuite
