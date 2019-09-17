@@ -131,6 +131,7 @@ public class MvnTest
 	  System.out.println("ggdhsfhgsdfsfd");
 	  System.out.println("sdfdsg");
 	 System.out.println("Updated in  Github Master");
+	   System.out.println("2nd way to update in local");
   }
 
 }
